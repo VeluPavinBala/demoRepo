@@ -79,7 +79,7 @@ export const PostList: React.FC<IResourceComponentsProps> = () => {
           title="Category"
           render={(value) => {
             if (isLoading) {
-              return <TextField value="Loading here test02..." />;
+              return <TextField value="Loading here test03..." />;
             }
 
             return (
